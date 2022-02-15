@@ -1,5 +1,19 @@
 .class {
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
+    width: 200px;
+    height: 150px;
+    background-color: lightsalmon;
+    border: 4px solid black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+    display: flex;
+    font-size:25px;
+    font-weight: bold;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
 }

@@ -14,20 +14,22 @@ function Home(props) {
 
     const handleSubmit = (event) => {
         event.preventDefault()
-        if (!favoriteClass.includes(value)) {
-            setClasses(favoriteClass.concat(value))
+        if (!favoriteClass.includes(value.trim()) && value.trim() !== "") {
+            setClasses(favoriteClass.concat(value.trim()))
             setValue("")
         }
         console.log(favoriteClass)
     }
 
     return (
-        <div>
-            <h1>Hello World</h1>
+        <div id="background">
+            <h1 id="title">Add Your Favorite Class!</h1>
             <form onSubmit={handleSubmit}>
-                <label>Add Favorite Class</label>
-                <input type="text" value={value} onChange={handleChange}></input>
-                <button type="submit">Add Class!</button>
+                <div>
+                    <label className="text-enter">Enter: </label>
+                    <input type="text" className="text-enter" value={value} onChange={handleChange}></input>
+                    <button type="submit" className="text-enter">Add Class!</button>
+                </div>
             </form>
             <div className = "my-classes">
                 {favoriteClass.map((favClass) =>
