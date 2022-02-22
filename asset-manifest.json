@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ICS-Fellowship-Favorite-Classes/static/css/main.d3187aee.css",
-    "main.js": "/ICS-Fellowship-Favorite-Classes/static/js/main.6d71aba9.js",
+    "main.css": "/ICS-Fellowship-Favorite-Classes/static/css/main.21cfeaaa.css",
+    "main.js": "/ICS-Fellowship-Favorite-Classes/static/js/main.b0d8fd08.js",
     "static/js/787.046847d7.chunk.js": "/ICS-Fellowship-Favorite-Classes/static/js/787.046847d7.chunk.js",
     "static/media/logo.svg": "/ICS-Fellowship-Favorite-Classes/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ICS-Fellowship-Favorite-Classes/index.html",
-    "main.d3187aee.css.map": "/ICS-Fellowship-Favorite-Classes/static/css/main.d3187aee.css.map",
-    "main.6d71aba9.js.map": "/ICS-Fellowship-Favorite-Classes/static/js/main.6d71aba9.js.map",
+    "main.21cfeaaa.css.map": "/ICS-Fellowship-Favorite-Classes/static/css/main.21cfeaaa.css.map",
+    "main.b0d8fd08.js.map": "/ICS-Fellowship-Favorite-Classes/static/js/main.b0d8fd08.js.map",
     "787.046847d7.chunk.js.map": "/ICS-Fellowship-Favorite-Classes/static/js/787.046847d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3187aee.css",
-    "static/js/main.6d71aba9.js"
+    "static/css/main.21cfeaaa.css",
+    "static/js/main.b0d8fd08.js"
   ]
 }
